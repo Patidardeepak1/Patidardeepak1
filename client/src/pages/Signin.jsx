@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {Link,useNavigate} from "react-router-dom"
 import {useDispatch, useSelector} from 'react-redux'
-import { signInStart,signInSuccess,signInFailure } from '../redux/user/userSlice'
+import { signInStart,signInSuccess,signInFailure } from '../redux/user/userSlice.js'
 function Signin() {
   const [formData,setFormData]=useState()
   const dispatch=useDispatch()
@@ -15,7 +15,7 @@ const {loading,error}=useSelector((state)=>state.user)
 
       })
   }
-  console.log(formData);
+  // console.log(formData);
   const handleSubmit=async (e)=>{
     e.preventDefault();
   try {
