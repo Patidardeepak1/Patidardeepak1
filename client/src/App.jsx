@@ -5,7 +5,8 @@ import Home from "./pages/Home.jsx"
 import About from "./pages/About.jsx"
 import SignUp from "./pages/Signup.jsx";
 import Profile from "./pages/Profile.jsx";
-import Header from "./components/header.jsx";
+import Header from "./components/Header.jsx";
+import Privateroute from "./components/Privateroute.jsx";
 function App() {
   return(<BrowserRouter>
   <Header/>
@@ -14,7 +15,9 @@ function App() {
     <Route path='/sign-in' element={<SignIn/>} />
     <Route path='/sign-up'  element={<SignUp/>} />
     <Route path='/about'  element={<About/>} />
-    <Route path='/profile'  element={<Profile/>} />
+    <Route  element={<Privateroute/>}>
+         <Route path='/profile'  element={<Profile/>} />
+    </Route>
   </Routes>
   </BrowserRouter>)
 }
