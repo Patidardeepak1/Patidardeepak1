@@ -1,4 +1,4 @@
-import{ User} from "../models/user.model.js"
+import User from "../models/user.model.js"
 import bcryptjs from "bcryptjs"
 import { errorHandler } from "../utils/error.js";
 import Jwt from "jsonwebtoken";
@@ -31,11 +31,12 @@ export  const signin=async(req,res,next)=>{
     const token=Jwt.sign({
       id:validUser._id
     },
-    process.env.JWT_SECRET)
+    process.env.JWT_SECRET);
+    const { password: pass, ...rest } = validUser._doc;
 
     res.cookie('acess_token',token,{httpOnly:true})
     .status(200)
-    .json(validUser)
+    .json(rest)
     
   } catch (error) {
     next(error)
@@ -58,8 +59,8 @@ export const google=async(req,res,next)=>{
        const newUser=new User({username:req.body.name.split(" ").join("").toLowerCase()+Math.random().toString(36).slice(-8),email:req.body.email,password:hashedPassword,avatar:req.body.photo})
        await newUser.save();
        const token=Jwt.sign({id:newUser._id},process.env.JWT_SECRET)
-       const {password :pass, ...rest}=newUser._doc
-      res.cookie("access_token",token,{httpOnly:true})
+       const {password :pass, ...rest}=newUser._doc;
+      res.cookie('access_token',token,{httpOnly:true})
       .status(200)
       .json(rest);
     }

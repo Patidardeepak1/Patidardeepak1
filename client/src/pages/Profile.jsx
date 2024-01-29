@@ -9,8 +9,8 @@ import {
 import { app } from "../firbase";
 
 function Profile() {
-  const fileRef = useRef();
-  const { currentUser } = useSelector((state) => state.user);
+  const fileRef = useRef(null);
+  const  {currentUser} = useSelector((state) => state.user);
   const [file, setFile] = useState(undefined);
   const [fileperc, setFileperc] = useState(0);
   const [fileUploadError, setFileUploaderror] = useState(false);
@@ -41,9 +41,9 @@ function Profile() {
         setFileUploaderror(true);
       },
       () => {
-        getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-          setFormData({ ...formData, avatar: downloadURL });
-        });
+        getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => 
+          setFormData({ ...formData, avatar: downloadURL })
+        );
       }
     );
   };
@@ -62,7 +62,7 @@ function Profile() {
         <img
           onClick={() => fileRef.current.click()}
           className="rounded-full h-24 w-24 object-cover cursor-pointer self-center mt-2 "
-          src={formData.avatar || currentUser.avatar}
+          src={formData.avatar||currentUser.avatar}
           alt="profile"
         />
         <p className="text-sm self-center">
@@ -78,18 +78,21 @@ function Profile() {
         </p>
         <input
           type="text"
+          defaultValue={currentUser.username}
           placeholder="username"
           className="border p-3 rounded-lg"
           id="username"
         />
         <input
           type="email"
+          defaultValue={currentUser.email}
           placeholder="email"
           className="border p-3 rounded-lg"
           id="email"
         />
         <input
           type="password"
+         
           placeholder="password"
           className="border p-3 rounded-lg"
           id="passsword"
