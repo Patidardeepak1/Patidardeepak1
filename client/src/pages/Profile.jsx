@@ -23,6 +23,8 @@ function Profile() {
       handleFileUpload();
     }
   }, [file]);
+
+
   const handleFileUpload = () => {
     const storage = getStorage(app);
     const fileName = new Date().getTime + file.name;
@@ -47,6 +49,7 @@ function Profile() {
       }
     );
   };
+ 
 
   return (
     <div className="p-3 max-w-lg mx-auto">

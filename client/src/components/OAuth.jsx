@@ -10,7 +10,7 @@ function OAuth() {
         try {
          const provider=new GoogleAuthProvider()
          const auth=getAuth(app)
-
+              
          const result =await signInWithPopup(auth,provider)
          const res =await fetch('/api/auth/google',{
              method:'POST',
@@ -19,8 +19,8 @@ function OAuth() {
              },
              body:JSON.stringify({name:result.user.displayName,email:result.user.email,photo:result.user.photoURL})
          })
-         const data= await res.json()
-        // console.log(data);
+         const data= await res.json();
+         console.log(data);
          dispatch(signInSuccess(data))
            navigate('/') 
         } catch (error) {

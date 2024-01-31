@@ -19,7 +19,7 @@ function Signin() {
       [e.target.id]: e.target.value,
     });
   };
-  //console.log(formData);
+  console.log(formData);
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -27,7 +27,7 @@ function Signin() {
       const res = await fetch("/api/auth/signin", {
         method: "POST",
         headers: {
-          "content-Type": "application/json",
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
