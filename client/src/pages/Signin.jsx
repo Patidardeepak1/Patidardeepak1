@@ -19,7 +19,7 @@ function Signin() {
       [e.target.id]: e.target.value,
     });
   };
-  console.log(formData);
+  //console.log(formData);
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -32,7 +32,7 @@ function Signin() {
         body: JSON.stringify(formData),
       });
       const data = await res.json();
-      console.log(data);
+      //console.log(data);
       if (data.success === false) {
         dispatch(signInFailure(data.message));
         return;

@@ -33,7 +33,7 @@ export  const signin=async(req,res,next)=>{
     process.env.JWT_SECRET);
     const { password: pass, ...rest } = validUser._doc;
 
-    res.cookie('acess_token',token,{httpOnly:true})
+    res.cookie('access_token',token,{httpOnly:true})
     .status(200)
     .json(rest)
     
