@@ -1,9 +1,15 @@
 <h1 align="center">Hi 👋, I'm Deepak Patidar</h1>
 <h3 align="center">A passionate Full Stack Developer specializing in the MERN tech stack</h3>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00ADB5&center=true&width=600&lines=Building+Dynamic+Applications+with+MERN;Fullstack+Developer+%7C+Problem+Solver;Crafting+Intuitive+UI%2FUX+Experiences!" alt="Typing SVG" />
 </p>
+<p align="center">
+  <a href="https://drive.google.com/file/d/15ZJvbF_5dEq4L1qsfPQ5LrWDUHwmUjGE/view?usp=drivesdk" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-Click%20Here-blue?style=for-the-badge&logo=readme&logoColor=white" alt="Resume Link"/>
+  </a>
+</p>
+
+
 
 ---
 
