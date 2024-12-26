@@ -9,30 +9,28 @@
   </a>
 </p>
 
-
-
 ---
 
 ### 👨‍💻 About Me
-- 🌱 I’m currently working on **[Blood Finder](https://github.com/Patidardeepak1/blood-finder)** and **Finding Blood With streamlined Process**.
-- 🛠️ I enjoy building **Dynamic Web Applications** with robust backend systems.
+- 🌱 I’m currently working on **[Queue Management System](https://github.com/Patidardeepak1/queue-management)** and **[Restaurant Finder](https://github.com/Patidardeepak1/restaurant-finder)**.
+- 🚠 I enjoy building **Dynamic Web Applications** with robust backend systems.
 - 💡 Open to collaborating on innovative projects and **exploring new technologies**.
-- 📫 Reach me at **deepak2025patidar@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/deepak-patidar-8a97a8253).
+- 📧 Reach me at **deepak2025patidar@gmail.com** or connect on [LinkedIn](https://www.linkedin.com/in/deepak-patidar-8a97a8253).
 
 ---
 
 ### 🛠 Tech Stack
 - **Frontend:**  
-  🌐 React.js | ⚛️ Next.js | 🎨 Tailwind CSS | 🎭 Bootstrap  
+  🌐 React.js | ⚛️ Next.js | 🎮 Tailwind CSS | 🎠 Bootstrap  
 
 - **Backend:**  
   🛠 Node.js | 🚀 Express.js  
 
 - **Database:**  
-  🗄️ MongoDB  
+  🐄️ MongoDB  
 
 - **Others:**  
-  🧰 Git | 🖥️ GitHub | 🌐 REST APIs | 🔒 JWT | ☁️ OpenWeatherMap API  
+  🧰 Git | 🔤 GitHub | 🌐 REST APIs | 🔒 JWT | ☁️ OpenWeatherMap API  
 
 ---
 
@@ -44,9 +42,9 @@
 
 ---
 
-### 📂 Featured Projects
-- **[Blood Finder](https://github.com/Patidardeepak1/blood-finder)**: A MERN stack project for finding and managing blood donors efficiently.  
-- **[Zomato Clone](https://github.com/Patidardeepak1/restaurant)**: A restaurant listing and searching application.  
+### 💁 Featured Projects
+- **[Queue Management System](https://github.com/Patidardeepak1/queue-management)**: A MERN stack project to streamline queue handling and improve customer flow management.  
+- **[Restaurant Finder](https://github.com/Patidardeepak1/restaurant-finder)**: A dynamic platform for discovering restaurants and exploring nearby dining options.  
 - **[Portfolio Website](https://github.com/Patidardeepak1/personal-portfolio)**: Personal portfolio built with React.js and Tailwind CSS.  
 
 > Explore all my repositories [here](https://github.com/Patidardeepak1?tab=repositories).
@@ -67,9 +65,7 @@
   </a>
 </p>
 
-
-⭐ **If you like what you see, give me a star on [GitHub](https://github.com/Patidardeepak1/Patidardeepak1) and follow my journey!** ⭐
-
+🌟 **If you like what you see, give me a star on [GitHub](https://github.com/Patidardeepak1/Patidardeepak1) and follow my journey!** 🌟
 
 <!--
 **Patidardeepak1/Patidardeepak1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -78,10 +74,10 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 💯 I’m looking to collaborate on ...
+- 😕 I’m looking for help with ...
 - 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
+- 📧 How to reach me: ...
+- 😇 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
