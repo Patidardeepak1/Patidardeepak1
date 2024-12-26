@@ -34,13 +34,7 @@
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=deepak-patidar&show_icons=true&theme=radical&hide=stars" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=deepak-patidar&theme=radical" />
-</p>
 
----
 
 ### 💁 Featured Projects
 - **[Queue Management System](https://github.com/Patidardeepak1/queue-management)**: A MERN stack project to streamline queue handling and improve customer flow management.  
