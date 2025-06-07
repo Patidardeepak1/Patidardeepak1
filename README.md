@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00ADB5&center=true&width=600&lines=Building+Dynamic+Applications+with+MERN;Fullstack+Developer+%7C+Problem+Solver;Crafting+Intuitive+UI%2FUX+Experiences!" alt="Typing SVG" />
 </p>
 <p align="center">
-  <a href="https://drive.google.com/file/d/1EvyuCww1ctnigWg2GwplFCaMW43dfPTn/view?usp=sharing" target="_blank">
+  <a href="https://drive.google.com/file/d/1m1uvRPw4_Uw3CQEj8nHW3zno44eA0hl0/view?usp=sharing" target="_blank">
     <img src="https://img.shields.io/badge/Resume-Click%20Here-blue?style=for-the-badge&logo=readme&logoColor=white" alt="Resume Link"/>
   </a>
 </p>
